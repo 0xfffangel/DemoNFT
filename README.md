@@ -32,3 +32,8 @@ yarn truffle console --network $NETWORK
 truffle(development)> const nft = await DemoNFT.deployed()
 truffle(development)> nft.mint(1)
 ```
+
+### Test
+```
+yarn truffle test --network $NETWORK
+```
